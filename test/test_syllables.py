@@ -7,6 +7,7 @@ import stockhaiku.nlp
     ('bronze age ending', 4),
     ('Heavy clouds over mountains', 7),
     ('lunar eclipse', 4),
+    ('short-coated wolf', 4),
 ])
 def test_syllable_count(sentence: str, expected_count: int):
     assert stockhaiku.nlp.count_syllables(sentence) == expected_count

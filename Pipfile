@@ -13,6 +13,8 @@ nltk = "*"
 pillow = "*"
 pytest = "*"
 facebook-sdk = "*"
+redis = "*"
+pony = "*"
 
 [requires]
 python_version = "3.7"
