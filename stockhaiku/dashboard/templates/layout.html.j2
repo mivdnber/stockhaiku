@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stock Haiku Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ url_for('.static', filename='normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('.static', filename='skeleton.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <section class="header">
+    <h2>Stock Haiku</h2>
+  </section>
+  <div class="row" style="margin-top: 8rem">
+    <div class="one-half column">
+      <h4>Verses</h4>
+      <p>{{ verse_count }}</p>
+    </div>
+    <div class="one-half column">
+      <h4>Crawl queue</h4>
+      <p>{{ crawl_queue_length }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

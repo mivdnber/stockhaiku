@@ -15,6 +15,11 @@ pytest = "*"
 facebook-sdk = "*"
 redis = "*"
 pony = "*"
+flask = "*"
+imageio = "*"
+numpy = "*"
+moviepy = "*"
+gtts = "*"
 
 [requires]
 python_version = "3.7"
